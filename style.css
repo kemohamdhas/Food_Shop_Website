@@ -555,17 +555,23 @@ textarea.form-control {
     z-index: 5;
 }
 
-.submit-btn{
-    padding: 0.7rem 1rem;
-    margin-top: 3.5rem;
-
+.submit-btn {
+  margin-left: 13rem;
+  padding: 0.7rem 1rem;
+  margin-top: 3.5rem;
+  border-radius: 20%;
+}
+.submit-btn:hover {
+  letter-spacing: 2px;
 }
 @media screen and (min-width: 992px) {
-    .contact-form,
-    .contact-info{
-        float: left;
-        width: 50%;
-    }
-    
+  .contact-form,
+  .contact-info {
+    float: left;
+    width: 50%;
+  }
+  .submit-btn{
+    margin-left: 50%;
+  }
 }
 /*----------------------------Footer------------------------*/
